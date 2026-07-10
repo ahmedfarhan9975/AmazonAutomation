@@ -1,0 +1,11 @@
+<suite name="Amazon Suite" parallel="tests" thread-count="2">
+
+    <test name="Amazon Test">
+
+        <classes>
+            <class name="tests.AmazonSearchTest"/>
+        </classes>
+
+    </test>
+
+</suite>
