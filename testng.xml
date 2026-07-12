@@ -1,9 +1,17 @@
-<suite name="Amazon Suite" parallel="tests" thread-count="2">
+<!-- Root element of TestNG -->
+<suite name="Amazon Suite"
+       parallel="tests"
+       thread-count="2">
 
+    <!-- One TestNG test -->
     <test name="Amazon Test">
 
+        <!-- Classes to execute -->
         <classes>
+
+            <!-- Test class -->
             <class name="tests.AmazonSearchTest"/>
+
         </classes>
 
     </test>
