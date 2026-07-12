@@ -115,6 +115,6 @@ test-output/index.html
 
 ---
 
-## Author
+## Tested By
 
 Farhan Sayed
